@@ -13,6 +13,15 @@ public class TV {
         this.marca = marca;
         this.estado = estado;
     }
+
+    public int getNumTV() {
+        return numTV;
+    }
+
+    public void setNumTV(int numTV) {
+        this.numTV = numTV;
+    }
+
     public void turnOn(){
         this.setEstado(true);
     }
