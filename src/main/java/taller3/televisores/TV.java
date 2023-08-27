@@ -15,7 +15,7 @@ public class TV {
         numTV++;
     }
 
-    public int getNumTV() {
+    public static int getNumTV() {
         return numTV;
     }
 
